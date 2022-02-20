@@ -6,5 +6,5 @@ RUN pip3 install -U pip
 RUN cd /
 RUN git clone https://github.com/MRK-YT/Renamer-Bot.git
 WORKDIR /app
-RUN pip3 install -U -r requirements.txt
+RUN pip3 install -r requirements.txt
 CMD python3 bot.py
